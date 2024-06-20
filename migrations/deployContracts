@@ -1,0 +1,6 @@
+// SPDX-License-Identifier: MIT
+const ReputationSystem = artifacts.require("ReputationSystem");
+
+module.exports = function (deployer) {
+    deployer.deploy(ReputationSystem);
+};
